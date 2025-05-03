@@ -1,5 +1,5 @@
-const express = require('express');
-const chalk = require('chalk');
+import express from 'express';
+import chalk from 'chalk';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -12,3 +12,4 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(chalk.green(`Server running on http://localhost:${PORT}`));
 });
+
