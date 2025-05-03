@@ -1,15 +1,15 @@
-const globals = require("globals");
+const globals = require('globals');
 
 module.exports = [
   {
     languageOptions: {
-      ecmaVersion: "latest",
-      sourceType: "module", // ✅ دي أهم سطر
+      ecmaVersion: 'latest',
+      sourceType: 'module', // ✅ دي أهم سطر
       globals: globals.node,
     },
     rules: {
-      semi: ["error", "always"],
-      quotes: ["error", "single"],
+      semi: ['error', 'always'],
+      quotes: ['error', 'single'],
     },
   },
 ];
