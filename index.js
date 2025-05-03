@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   console.log(chalk.blue('Received a GET request on /'));
-  res.send('🎉 CI/CD Workflow Ready to Start!");
+  res.send('🎉 CI/CD Workflow Ready to Start!');
 });
 
 app.listen(PORT, () => {
